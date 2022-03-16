@@ -16,3 +16,6 @@ Aplicação que permite que os alunos possam avaliar  os professores e publicar 
 
 #### Eu, como gestor gostaria de
 *   Ver a avaliação que os alunos fizeram dos professores
+-----------------------------------------------------------------
+![Captura de tela de 2022-03-16 11-57-37](https://user-images.githubusercontent.com/64909008/158619813-9f884dba-e3ac-4408-8a33-fab7d2407a0c.png)
+
