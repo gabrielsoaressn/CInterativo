@@ -19,3 +19,20 @@ Aplicação que permite que os alunos possam avaliar  os professores e publicar 
 -----------------------------------------------------------------
 ![Captura de tela de 2022-03-16 11-57-37](https://user-images.githubusercontent.com/64909008/158619813-9f884dba-e3ac-4408-8a33-fab7d2407a0c.png)
 
+## UML
+*   Controller(classe criada para funções acima das pessoa)
+*   Pessoa
+*   Herdam de Pessoa -> Professor, Gestor e Aluno
+*   Atributos
+  *   Professor -> nome, matŕicula, usuário, senha, notaAvaliacao
+  *   Aluno -> nome, matŕicula, usuário, senha 
+  *   Gestor -> nome, matŕicula, usuário, senha
+*   Métodos
+  *   Professor -> verRanking, verAvaliacao, interagir
+  *   Aluno -> verRanking, avaliarProfessor, verAvaliacao, interagir
+  *   Gestor -> verRanking, verAvaliacao    
+*   Controller
+  *   Métodos
+    *   Rankear
+    *   salvar
+    *   gerenciarInteracao
