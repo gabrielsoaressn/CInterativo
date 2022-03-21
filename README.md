@@ -2,8 +2,7 @@
 Aplicação que permite que os alunos possam avaliar  os professores e publicar sua opinião anonimamente.
 
 ## Project Model Canvas
-![Captura de tela de 2022-03-16 11-22-19](https://user-images.githubusercontent.com/64909008/158611801-ef1bf08a-6df8-403d-a471-5906d28eb428.png)
-
+![PMC](https://user-images.githubusercontent.com/64909008/158611801-ef1bf08a-6df8-403d-a471-5906d28eb428.png)(https://docs.google.com/presentation/d/1YBN_1IKkRhObODS4tK5xIKE04G5Fl9pxkn7CJPvqZU4/edit?usp=sharing)
 ## Product Backlog
 ### Histórias de Usuários
 #### Eu, como aluno gostaria de
@@ -17,7 +16,7 @@ Aplicação que permite que os alunos possam avaliar  os professores e publicar 
 #### Eu, como gestor gostaria de
 *   Ver a avaliação que os alunos fizeram dos professores
 -----------------------------------------------------------------
-![Captura de tela de 2022-03-16 11-57-37](https://user-images.githubusercontent.com/64909008/158619813-9f884dba-e3ac-4408-8a33-fab7d2407a0c.png)
+![Captura de tela de 2022-03-16 11-57-37](https://user-images.githubusercontent.com/64909008/158619813-9f884dba-e3ac-4408-8a33-fab7d2407a0c.png)(https://trello.com/b/ZL8Ah9KN/cinterativo)
 
 ## UML
 *   Controller(classe criada para funções acima das pessoa)
