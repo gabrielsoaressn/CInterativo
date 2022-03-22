@@ -19,6 +19,12 @@ Aplicação que permite que os alunos possam avaliar  os professores e publicar 
 ![Captura de tela de 2022-03-16 11-57-37](https://user-images.githubusercontent.com/64909008/158619813-9f884dba-e3ac-4408-8a33-fab7d2407a0c.png)(https://trello.com/b/ZL8Ah9KN/cinterativo)
 
 ## UML
+
+### Diagrama de casos de uso
+![Captura de tela de 2022-03-22 10-44-55](https://user-images.githubusercontent.com/64909008/159497478-c5ae98af-a7a5-4624-bf84-780426150347.png)
+(https://cloud.smartdraw.com/share.aspx/?pubDocShare=20602831C89C80D332CFFD501C8B0CEDE41)
+
+### Diagrama de classes
 *   Controller(classe criada para funções acima das pessoa)
 *   Pessoa
 *   Herdam de Pessoa -> Professor, Gestor e Aluno
