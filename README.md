@@ -5,7 +5,8 @@ Aplicação que permite que os alunos possam avaliar  os professores e publicar 
 O método ágil escolhido pelo grupo foi o kanban.
 
 ## Project Model Canvas
-![PMC](https://user-images.githubusercontent.com/64909008/158611801-ef1bf08a-6df8-403d-a471-5906d28eb428.png)(https://docs.google.com/presentation/d/1YBN_1IKkRhObODS4tK5xIKE04G5Fl9pxkn7CJPvqZU4/edit?usp=sharing)
+![PMC](https://user-images.githubusercontent.com/64909008/159604589-b2a2ee6a-864d-4641-ae1d-de7aabcd8cd7.png)
+(https://docs.google.com/presentation/d/1YBN_1IKkRhObODS4tK5xIKE04G5Fl9pxkn7CJPvqZU4/edit?usp=sharing)
 ## Product Backlog
 ### Histórias de Usuários
 #### Eu, como aluno gostaria de
