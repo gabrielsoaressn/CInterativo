@@ -1,47 +1,18 @@
-# CInterativo
-Aplicação que permite que os alunos possam avaliar  os professores e publicar sua opinião anonimamente.
+## Getting Started
 
-## Método Ágil
-O método ágil escolhido pelo grupo foi o kanban.
+Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-## Project Model Canvas
-![PMC](https://user-images.githubusercontent.com/64909008/159604589-b2a2ee6a-864d-4641-ae1d-de7aabcd8cd7.png)
-(https://docs.google.com/presentation/d/1YBN_1IKkRhObODS4tK5xIKE04G5Fl9pxkn7CJPvqZU4/edit?usp=sharing)
-## Product Backlog
-### Histórias de Usuários
-#### Eu, como aluno gostaria de
-*   Poder avaliar os professores
-*   Ver a avaliação que outros alunos fizeram dos professores
+## Folder Structure
 
-#### Eu, como professor gostaria de
-*   Receber o feedback do alunos(saber no que posso melhorar)
-*   Ver a meu desempenho em relação a outros professores
+The workspace contains two folders by default, where:
 
-#### Eu, como gestor gostaria de
-*   Ver a avaliação que os alunos fizeram dos professores
------------------------------------------------------------------
-![Captura de tela de 2022-03-16 11-57-37](https://user-images.githubusercontent.com/64909008/158619813-9f884dba-e3ac-4408-8a33-fab7d2407a0c.png)(https://trello.com/b/ZL8Ah9KN/cinterativo)
+- `src`: the folder to maintain sources
+- `lib`: the folder to maintain dependencies
 
-## UML
+Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-### Diagrama de casos de uso
-![Captura de tela de 2022-03-22 10-44-55](https://user-images.githubusercontent.com/64909008/159497478-c5ae98af-a7a5-4624-bf84-780426150347.png)
-(https://cloud.smartdraw.com/share.aspx/?pubDocShare=20602831C89C80D332CFFD501C8B0CEDE41)
+> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-### Diagrama de classes
-*   Controller(classe criada para funções acima das pessoa)
-*   Pessoa
-*   Herdam de Pessoa -> Professor, Gestor e Aluno
-*   Atributos
-  *   Professor -> nome, matŕicula, usuário, senha, notaAvaliacao
-  *   Aluno -> nome, matŕicula, usuário, senha 
-  *   Gestor -> nome, matŕicula, usuário, senha
-*   Métodos
-  *   Professor -> verRanking, verAvaliacao, interagir
-  *   Aluno -> verRanking, avaliarProfessor, verAvaliacao, interagir
-  *   Gestor -> verRanking, verAvaliacao    
-*   Controller
-  *   Métodos
-    *   Rankear
-    *   salvar
-    *   gerenciarInteracao
+## Dependency Management
+
+The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).

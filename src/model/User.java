@@ -48,5 +48,12 @@ public class User {
     public String getPassword() {
         return senha;
     }
-
+    //falta implementar
+    public void verRanking() {
+        System.out.println("Ranking");
+    }
+    //falta implementar
+    public void verAvaliacao() {
+        System.out.println("avaliacao");
+    }
 }
