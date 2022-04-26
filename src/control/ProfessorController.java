@@ -26,8 +26,8 @@ public class ProfessorController{
         return model.getMatricula();
     }
 
-    public int getNota(){
-        return model.getNota();
+    public double getMedia(){
+        return model.getMedia();
     }
 
     public void setProfMatricula(String matricula){
@@ -42,8 +42,8 @@ public class ProfessorController{
         model.setSenha(senha);
     }
 
-    public void setNota(int nota){
-        model.setNota(nota);
+    public void setMedia(double media){
+        model.setMedia(media);
     }
 
     public void professorInteragir(String comentario){

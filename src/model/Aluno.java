@@ -7,10 +7,12 @@ public class Aluno extends User{
     }
     public void avaliar(Professor professor, int nota, String comentario)
     {
-        //atribui nota e comentário ao professor
+        Professor.post.DarNota(nota);
+        Professor.post.Comentar(comentario);
+
     }
     public void interagir(String comentario)
     {
-        //adiciona comentario ao professor
+        Professor.post.Comentar(comentario);
     }
 }

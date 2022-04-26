@@ -2,25 +2,25 @@ package model;
 
 public class Professor extends User {
 
-    private int nota;
-    
-    public Professor(String nome, String matricula, String login, String senha, int nota) {
+    protected static Post post;
+    private double media;
+
+    public Professor(String nome, String matricula, String login, String senha, double media) {
         super(nome, matricula, login, senha);
-        this.setNota(nota);
+        this.media = media;
     }
 
-    public int getNota() {
-        return nota;
+    public double getMedia() {
+        return media;
     }
 
-    public void setNota(int nota) {
-        this.nota = nota;
+    public void setMedia(double media) {
+        this.media = media;
     }
     
     public void interagir(String comentario)
     {
-        //Vou criar uma classe Avaliação. Avaliação vai ter a nota do professor, 
-        //os comentários dos alunos e os cometários do professor.
+        Professor.post.Comentar("Professor: " + comentario);
     }
     
 }
