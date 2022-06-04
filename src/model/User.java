@@ -56,4 +56,5 @@ public class User {
     public void verAvaliacao() {
         System.out.println("avaliacao");
     }
+    
 }
